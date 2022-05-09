@@ -1,0 +1,87 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-05-06T13:53:05.828Z",
+    "end": "2022-05-06T13:53:08.873Z",
+    "duration": 3045,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ba078f77-f0b2-48fd-b648-97107720bcb0",
+      "title": "",
+      "fullFile": "cypress/integration/login.ts",
+      "file": "cypress/integration/login.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "login test",
+          "fullTitle": "login test",
+          "timedOut": null,
+          "duration": 952,
+          "state": "passed",
+          "speed": "fast",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "loginPage.navigate('https://trytestingthis.netlify.app/');\nloginPage.enterUsername('test');\nloginPage.enterPassword('test');\nloginPage.clickLogin();",
+          "err": {},
+          "uuid": "c91ab477-8ba9-4385-856c-16c5a1bdd9a4",
+          "parentUUID": "ba078f77-f0b2-48fd-b648-97107720bcb0",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [
+        "c91ab477-8ba9-4385-856c-16c5a1bdd9a4"
+      ],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 952,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
